@@ -21,16 +21,31 @@ a {
     border-radius: 25px;
     background-color: var(--yellow);
     padding: 7px 60px;
+    transition: .4s;
+}
+
+.yellow-btn a:hover {
+    filter: brightness(92%);
 }
 
 .gray-btn a {
     border-radius: 25px;
     background-color:var(--gray);
     padding: 7px 65px;
+    transition: .4s;
+}
+
+.gray-btn a:hover {
+    filter: brightness(92%);
 }
 
 .purple-btn a {
     padding: 13px 30px;
     border-radius: 25px;
     background-color: var(--purple);
+    transition: .4s;
+}
+
+.purple-btn a:hover {
+    filter: brightness(92%);
 }

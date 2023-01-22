@@ -1,6 +1,7 @@
 :root {
     --yellow: #e3a14c;
     --gray: #bea5d8;
+    --purple: #430074;
 }
 
 a {
@@ -26,4 +27,10 @@ a {
     border-radius: 25px;
     background-color:var(--gray);
     padding: 7px 65px;
+}
+
+.purple-btn a {
+    padding: 13px 30px;
+    border-radius: 25px;
+    background-color: var(--purple);
 }

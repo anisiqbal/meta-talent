@@ -44,13 +44,13 @@ function Detail() {
                   </div>
                   <div className="carousel-item">
                     <div className="card-carousal">
-                        <img src={slider1} />
+                        <img src={slider2} />
                         <p>All in one solution for skills, training, interviews and job placements</p>
                     </div>
                   </div>
                   <div className="carousel-item">
                     <div className="card-carousal">
-                        <img src={slider1} />
+                        <img src={slider3} />
                         <p>All in one solution for skills, training, interviews and job placements</p>
                     </div>
                   </div>

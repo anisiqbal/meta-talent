@@ -10,9 +10,9 @@ function Login() {
         <div className="screen1 gradient-body">
           <div className="container">
             <div className="row">
-              <div className="col-md-7 col-12"></div>
+              <div className="col-lg-8 col-md-7 col-12"></div>
 
-              <div className="col-md-5 col-12">
+              <div className="col-lg-4 col-md-5 col-12">
                 <div className="screen1-inner">
                   <div className="card">
                     <div className="card-body">

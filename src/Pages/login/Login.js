@@ -10,9 +10,9 @@ function Login() {
         <div className="screen1 gradient-body">
           <div className="container">
             <div className="row">
-              <div className="col-7"></div>
+              <div className="col-md-7 col-12"></div>
 
-              <div className="col-5">
+              <div className="col-md-5 col-12">
                 <div className="screen1-inner">
                   <div className="card">
                     <div className="card-body">
@@ -34,7 +34,9 @@ function Login() {
                           aria-describedby="emailHelp"
                         />
                         <div className="yellow-btn">
-                          <a className="w-100 text-center mt-4" type="button">SIGN IN</a> 
+                          <a className="w-100 text-center mt-4" type="button">
+                            SIGN IN
+                          </a>
                         </div>
 
                         <div className="forget-pass mt-2">
@@ -45,13 +47,13 @@ function Login() {
                         </div>
 
                         <div className="sign-btn-google">
-                          <button type="button" class="login-with-google-btn" >
+                          <button type="button" class="login-with-google-btn">
                             Sign in with Google
                           </button>
                         </div>
 
                         <div className="purple-btn mt-5 mb-3 text-center">
-                          <a>REGISTER NOW</a> 
+                          <a>REGISTER NOW</a>
                         </div>
                       </div>
                     </div>

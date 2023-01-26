@@ -1,0 +1,46 @@
+.screen3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.screen3 .main-card{
+    margin-top: 15px;
+    width: 70%;
+    height: 55vh;
+    /* display: block;
+    margin: auto; */
+}
+
+.screen3 .main-card img{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: auto;
+    border: 2px solid #767676;
+    border-radius: 80px;
+}
+
+.screen3 .form-inner{
+    
+}
+
+.screen3 .form-inner input{
+    width: 70%;
+    height: auto;
+}
+
+.screen3 .form-inner ::placeholder{
+    color: #8d8d8d;
+}
+
+.screen3 .form-inner p{
+    color: var(--light-gray);
+    font-size: 14px;
+    padding-top: 15px;
+
+}

@@ -1,0 +1,45 @@
+.strengths{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.strengths .home-heading{
+    text-align: center;
+}
+
+.strengths .home-heading h1{
+    color: var(--white);
+    font-size: 40px;
+}
+
+.strengths .home-heading p{
+    color: var(--white);
+    padding-top: 10px;
+    font-size: 19px;
+
+}
+
+.strengths .strengths-inner{
+    margin-top: 20px;
+}
+
+.strengths .strengths-inner .chip {
+    margin-top: 30px;
+}
+
+.strengths .strengths-inner .chip a{
+    background-color: var(--white);
+    color: var(--black);
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+}
+
+.strengths .yellow-btn a{
+    margin: 0 15px;
+}

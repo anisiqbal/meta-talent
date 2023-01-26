@@ -1,22 +1,43 @@
 :root {
     --yellow: #e3a14c;
-    --gray: #bea5d8;
+    --gray: #ebebeb;
     --purple: #430074;
+    --white: #ffff;
+    --black: rgb(0, 0, 0);
+    --light-gray: rgb(95, 95, 95);
 }
 
 a {
     text-decoration: none !important;
-    color: white !important;
+    /* color: white !important; */
+    cursor: pointer;
 }
 
+/* body-bg */
 .gradient-body {
     background-image: url(./assets/img/gradient-bg.avif);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
-  }
+}
 
+/* card */
+.main-card{
+    background: var(--gray);
+    border-radius: 30px;
+    padding: 40px;
+    width: 100%;
+    height: 50vh;
+}
+
+/* form-input */
+.form-inner input{
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+/* buttons */
 .yellow-btn a {
     border-radius: 25px;
     background-color: var(--yellow);
@@ -30,7 +51,7 @@ a {
 
 .gray-btn a {
     border-radius: 25px;
-    background-color:var(--gray);
+    background-color: var(--gray);
     padding: 7px 65px;
     transition: .4s;
 }

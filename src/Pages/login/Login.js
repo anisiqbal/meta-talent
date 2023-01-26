@@ -42,7 +42,7 @@ function Login() {
                         <div className="forget-pass mt-2">
                           <a className="text-black-50">Forget password?</a>
                         </div>
-                        <div className="wrapper-btn">
+                        <div className="wrapper-btns">
                           <p>or continue with</p>
                         </div>
 

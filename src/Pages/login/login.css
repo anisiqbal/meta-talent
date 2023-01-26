@@ -1,3 +1,11 @@
+.screen1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .screen1 .screen1-inner .card {
     border-radius: 15px;
     margin-top: 25px;
@@ -26,11 +34,11 @@
     margin-top: 30px;
 }
 
-.screen1 .screen1-inner .card .card-body input {
+/* .screen1 .screen1-inner .card .card-body input {
     border-radius: 20px;
     margin-top: 15px;
-    border: 1px solid #787878;
-}
+    border: 1px solid #888888;
+} */
 
 .forget-pass {
     text-align: right;
@@ -44,12 +52,12 @@
     text-align: right;
 }
 
-.screen1 .screen1-inner .card .card-body .wrapper-btn {
+.screen1 .screen1-inner .card .card-body .wrapper-btns {
     margin-top: 15px;
     text-align: center;
 }
 
-.screen1 .screen1-inner .card .card-body .wrapper-btn p {
+.screen1 .screen1-inner .card .card-body .wrapper-btns p {
     color: #929292;
     font-size: 15px;
 

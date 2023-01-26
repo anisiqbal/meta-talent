@@ -1,11 +1,13 @@
 .screen2{
+    width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .screen2 .screen2-inner h1{
-    color: white;
+    color: #ffff;
     font-size: 140px;
     font-weight: 400;
 }
@@ -18,8 +20,9 @@
 
 .screen2 .screen2-inner h6{
     color: white;
-    margin-top: 10px;
-    padding-left: 80px;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .card-carousal {

@@ -6,21 +6,6 @@
     justify-content: center;
 }
 
-.screen4 .home-heading{
-    text-align: center;
-}
-
-.screen4 .home-heading h1{
-    color: var(--white);
-    font-size: 40px;
-}
-
-.screen4 .home-heading p{
-    padding-top: 10px;
-    font-size: 19px;
-    color: var(--white);
-}
-
 .screen4 .bg-color{
     background-color: #dfdfdfcc;
     padding: 15px 5px;

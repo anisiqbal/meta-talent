@@ -6,22 +6,6 @@
     justify-content: center;
 }
 
-.strengths .home-heading{
-    text-align: center;
-}
-
-.strengths .home-heading h1{
-    color: var(--white);
-    font-size: 40px;
-}
-
-.strengths .home-heading p{
-    color: var(--white);
-    padding-top: 10px;
-    font-size: 19px;
-
-}
-
 .strengths .strengths-inner{
     margin-top: 20px;
 }

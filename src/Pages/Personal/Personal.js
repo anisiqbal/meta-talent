@@ -14,8 +14,8 @@ function Personal() {
                 <div className="main-card">
                   <img src={image} />
 
-                  <div className="yellow-btn mt-5 text-center">
-                    <a type="button">Upload Picture</a>
+                  <div className="light-purple-btn mt-5 text-center">
+                    <a className="text-white">Upload Picture</a>
                   </div>
                 </div>
               </div>
@@ -64,13 +64,18 @@ function Personal() {
                     placeholder="Retype Password"
                   />
 
-                  <p>
+                  <label class="container-checkbox mt-3">
                     I agree with the terms and conditions and privacy policy
-                  </p>
-
-                  <div className="yellow-btn mt-5">
-                    <a type="button">Next</a>
-                  </div>
+                    <input type="checkbox" />
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div className="row justify-content-center mt-5">
+              <div className="col-4 text-center">
+                <div className="yellow-btn">
+                  <a className="w-100 text-black">Next</a>
                 </div>
               </div>
             </div>

@@ -34,7 +34,7 @@ function Login() {
                           aria-describedby="emailHelp"
                         />
                         <div className="yellow-btn">
-                          <a className="w-100 text-center mt-4" type="button">
+                          <a className="w-100 text-center text-black mt-4" type="button">
                             SIGN IN
                           </a>
                         </div>
@@ -53,7 +53,7 @@ function Login() {
                         </div>
 
                         <div className="purple-btn mt-5 mb-3 text-center">
-                          <a>REGISTER NOW</a>
+                          <a className="text-white">REGISTER NOW</a>
                         </div>
                       </div>
                     </div>

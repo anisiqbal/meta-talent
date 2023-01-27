@@ -24,7 +24,7 @@ function Detail() {
                     Let's Start
                   </a>
                 </div>
-                <h6>OR</h6>
+                <h6 className="text-center w-25">OR</h6>
                 <div className="gray-btn">
                   <a type="button">
                     Register

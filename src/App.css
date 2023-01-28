@@ -173,3 +173,31 @@ a {
 .progress-bar {
     background-color: transparent !important;
 }
+
+/* level card with level and badge  */
+.level-card {
+    font-size: 25px;
+    height: 60px;
+    width: 140px;
+    color: white;
+    background-color: var(--yellow);
+    padding: 10px 20px;
+    position: absolute;
+    top: 8rem;
+    left: 12rem;
+    border-radius: 5px;
+}
+
+.level-card span {
+    position: absolute;
+    font-size: 100px;
+    top: -51px;
+}
+
+.level-card .star-badge {
+    position: absolute;
+    top: -25px;
+    left: 5px;
+    width: 45px;
+    height: auto;
+}

@@ -21,7 +21,7 @@
     position: relative;
 }
 
-.screen5 .left-img img {
+.screen5 .left-img .person-img {
     /* display: block;
     margin: auto; */
     height: 100%;
@@ -37,7 +37,7 @@
     background-color: var(--light-blue);
 }
 
-.screen5 .left-img .level-card {
+/* .screen5 .left-img .level-card {
     font-size: 25px;
     height: 60px;
     width: 140px;
@@ -62,7 +62,7 @@
     left: 5px;
     width: 45px;
     height: auto;
-}
+} */
 
 .percentage-icon {
     width: 100%;

@@ -31,11 +31,13 @@ function Expertise() {
               <div className="row">
                 <div className="col-5">
                   <div className="left-img">
-                    <img src={person} />
+                    <img className="person-img" src={person} />
 
                     <div className="level-card">
                       <img className="star-badge" src={badge} />
-                      <p>Level <span>8</span></p>
+                      <p>
+                        Level <span>8</span>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -67,6 +69,13 @@ function Expertise() {
                   ))}
                 </div>
               </div>
+            </div>
+          </div>
+
+          <div className="col-12">
+            <div className="yellow-btn mt-5 text-center">
+              <a className="me-3 text-black">Back</a>
+              <a className="text-black">Next</a>
             </div>
           </div>
         </div>

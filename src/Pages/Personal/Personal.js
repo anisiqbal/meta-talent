@@ -58,11 +58,21 @@ function Personal() {
                     placeholder="Password"
                   />
 
-                  <input
+                  <input 
                     type="text"
                     class="form-control"
                     placeholder="Retype Password"
                   />
+
+                 
+                  <input
+                      class="form-control"
+                      type="file"
+                      id="avatar"
+                      name="avatar"
+                      accept="image/png, image/jpeg"
+                    />
+                
 
                   <label class="container-checkbox mt-3">
                     I agree with the terms and conditions and privacy policy

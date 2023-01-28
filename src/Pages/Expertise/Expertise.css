@@ -9,4 +9,62 @@
 .screen5 .wrapper-bg{
     background-color: var(--gray);
     padding: 30px;
+    height: 60vh;
+}
+
+.screen5 .border-right-blue {
+    border-right: 2px solid var(--light-blue);
+}
+
+.screen5 .left-img {
+    height: 60vh;
+    position: relative;
+}
+
+.screen5 .left-img img {
+    /* display: block;
+    margin: auto; */
+    height: 100%;
+}
+
+.left-img::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 50px;
+    width: 3px;
+    height: 50vh;
+    background-color: var(--light-blue);
+}
+
+.screen5 .left-img .level-card {
+    font-size: 25px;
+    height: 60px;
+    width: 140px;
+    color: white;
+    background-color: var(--yellow);
+    padding: 10px 20px;
+    position: absolute;
+    top: 8rem;
+    left: 12rem;
+    border-radius: 5px;
+}
+
+.screen5 .left-img .level-card span {
+    position: absolute;
+    font-size: 100px;
+    top: -51px;
+}
+
+.screen5 .left-img .level-card .star-badge {
+    position: absolute;
+    top: -25px;
+    left: 5px;
+    width: 45px;
+    height: auto;
+}
+
+.percentage-icon {
+    width: 100%;
+    padding-top: 15px;
 }
